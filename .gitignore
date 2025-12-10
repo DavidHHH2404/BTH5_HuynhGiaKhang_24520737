@@ -1,0 +1,70 @@
+# Tệp tin và thư mục mặc định của Visual Studio / .NET
+
+# ----------------------------------------------------
+# 1. Thư mục và tệp tin được tạo ra khi biên dịch (BUILD ARTIFACTS)
+# ----------------------------------------------------
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.pdb
+*.suo
+*.user
+*.userosf
+*.bak
+
+# ----------------------------------------------------
+# 2. Thư mục và tệp tin Cấu hình Visual Studio
+# ----------------------------------------------------
+
+# Thư mục ẩn chứa các tệp VS tạm thời
+.vs/
+
+# Tệp tin cấu hình giải pháp (Solution User Options)
+*.sln.ide
+*.vssscc
+
+# Tệp tin cấu hình dự án (Project User Options)
+*.csproj.user
+*.vbproj.user
+*.vcxproj.user
+
+# Tệp tin cấu hình Resharper
+*.ReSharper*
+*_ReSharper*
+
+# ----------------------------------------------------
+# 3. Thư mục và tệp tin liên quan đến Gói (PACKAGES & DEPENDENCIES)
+# ----------------------------------------------------
+
+# Gói NuGet (Nếu bạn sử dụng quản lý gói cũ)
+[Pp]ackages/
+
+# Thư mục NuGet toàn cục (không cần thiết trong dự án)
+.nuget/
+
+# Thư mục cài đặt công cụ
+tools/
+
+# ----------------------------------------------------
+# 4. Tệp tin tạo ra từ Bộ công cụ khác (OPTIONAL TOOLS)
+# ----------------------------------------------------
+
+# Tệp tin tạo ra bởi Visual Studio Code
+.vscode/
+
+# Tệp tin cấu hình database hoặc local db
+*.mdf
+*.ldf
+
+# ----------------------------------------------------
+# 5. Các Tệp tin sao lưu (TEMPORARY FILES)
+# ----------------------------------------------------
+
+~$*
+*~
+
+# Tệp tin tạm thời và nhật ký
+*.log
+*.tmp
